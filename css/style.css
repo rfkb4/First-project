@@ -1,0 +1,46 @@
+@import url("../css/awesome.css");
+@import url("../css/pricing.css");
+@import url("../css/reviews.css");
+@import url("../css/axure.css");
+@import url("../css/header.css");
+@import url("../css/social.css");
+@import url("../css/footer.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #D98943;
+    width: 64px;
+    margin: 24px auto;
+}
+.title-desc {
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    text-align: center;
+    margin-bottom: 65px;
+}

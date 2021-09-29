@@ -1,0 +1,81 @@
+.social {
+    background-color: #F8EFEF;
+}
+.container_social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.socials-title {
+    display: flex;
+    flex-direction: column;
+    align-content: center;    
+}
+.socials-title__heading {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 14px 0;
+}
+.socials-title__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    margin-bottom: 17px;
+}
+.socials__icon-list {
+    font-size: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socials__item {
+    margin: 0 35px;
+    color: #86878b;
+}
+.socials__item:last-child {
+    margin: 0 0 0 35px;
+}
+.socials__item:first-child {
+    margin: 0 35px 0 80px;
+}
+.link {
+    color: #86878B;
+}
+.fa-internet-explorer:hover {
+    color: rgb(5, 152, 236);
+    transform: rotate(360deg) scale(1.2);
+    transition: 0.3s ;
+}
+.fa-facebook-f:hover {
+    color: rgb(84, 95, 247);
+    transform: rotate(360deg) scale(1.2);
+    transition: 0.3s ;
+}
+.fa-ad:hover {
+    color: crimson;
+    transform: rotate(360deg) scale(1.2);
+    transition: 0.3s ;
+}
+.fa-amazon:hover {
+    color: rgb(255, 174, 0);
+    transform: rotate(360deg) scale(1.2);
+    transition: 0.3s ;
+}
+.fa-telegram-plane:hover {
+    color: rgb(0, 132, 255);
+    transform: rotate(360deg) scale(1.2);
+    transition: 0.3s ;
+}
+.fa-pinterest-p:hover {
+    color: red;
+    transform: rotate(360deg) scale(1.2);
+    transition: 0.3s ;
+}
+.fa-yandex-international:hover {
+    color: red;
+    transform: rotate(360deg) scale(1.2);
+    transition: 0.3s ;
+}

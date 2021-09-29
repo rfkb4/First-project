@@ -1,0 +1,26 @@
+.footer {
+    background-color: black;
+    padding: 30px 15px 15px;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__icon-list {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+}
+.footer__link {
+    color: #86878B;
+    margin: 0 15px 0 15px;
+}
+.copy {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    color: #86878B;
+    text-align: center;
+    margin-top: 18px;
+}
