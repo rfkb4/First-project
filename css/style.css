@@ -5,7 +5,9 @@
 @import url("../css/header.css");
 @import url("../css/social.css");
 @import url("../css/footer.css");
+@import url(../css/main.css);
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -33,7 +35,7 @@
 .title::after {
     content: '';
     display: block;
-    border-bottom: 1px solid #D98943;
+    border-bottom: 1px solid #EC7979;
     width: 64px;
     margin: 24px auto;
 }

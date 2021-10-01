@@ -1,5 +1,7 @@
 .social {
     background-color: #F8EFEF;
+    padding-top: 14px;
+    padding-bottom: 17px;
 }
 .container_social {
     display: flex;
@@ -17,13 +19,12 @@
 .socials-title__heading {
     font-weight: 700;
     font-size: 20px;
-    margin: 14px 0;
+    margin-bottom: 14px;
 }
 .socials-title__subtitle {
     font-weight: 400;
     font-size: 14px;
     color: #86878B;
-    margin-bottom: 17px;
 }
 .socials__icon-list {
     font-size: 42px;

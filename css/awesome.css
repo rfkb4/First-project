@@ -13,13 +13,15 @@
     width: 350px;
 }
 .awesome-card__pic {
+    font-size: 30px;
+    color: #EC7979;
     margin: 0px auto 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 70px;
     height: 70px;
-    border: 1px solid #D98943;
+    border: 1px solid #EC7979;
     border-radius: 50%;
 }
 .awesome-card__subtitle {

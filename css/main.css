@@ -1,0 +1,134 @@
+.main {
+    padding: 100px 0;
+    background-image: url(../img/background-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.main::after {
+    content: url(../img/mask2.png);
+    position: absolute;
+    top: -18;
+    left: auto;
+    overflow: hidden;
+    opacity: 0.45;
+}
+.container_main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.greetings {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    z-index: 1
+    
+}
+.greetings__logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 32px;
+}
+.greetings__logo::after {
+    content: 'it';
+    position: absolute;
+    color: #EC7979;
+}
+.greetings__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    
+}
+.greetings__title::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #ffffff;
+    width: 64px;
+    margin-top: 32px;
+    margin-bottom: 39px;
+}
+.greetings__slogan {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 39px;
+}
+.greetings__button {
+    font-size: 15px;
+    font-weight: 600;
+}
+.button__download {
+    text-align: center;
+}
+.form {
+    max-width: 370px;
+    min-width: 370px;
+    display: flex;
+    flex-direction: column;
+}.reg {
+    padding-top: 18px;
+    padding-left: 59px;
+    padding-right: 59px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    
+}
+.form__title {
+    margin-bottom: 44px;
+}
+.form__title_text {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.form__tilte_pink {
+    font-weight: 700;
+    font-size: 20px;
+    color: #EC7979;
+}
+.form__item {
+}
+.form__item_label {
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+.form__item_imput {
+    width: 252px;
+    border-top: #ffffff;
+    border-left: #ffffff;
+    border-right: #ffffff;
+    border-color: #bdbdbd;
+    margin-bottom: 19px;
+}
+.form__button {
+    margin-top: 61px;
+}
+.form_btn {
+    cursor: pointer;
+    border: 0px;
+    background-color: #EC7979;
+    max-width: 370px;
+    min-width: 370px;
+    height: 52px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 0 0 8px 8px;
+}

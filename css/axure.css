@@ -1,5 +1,5 @@
 .axure {
-    background-image: url(/img/background\ 1.png);
+    background-image: url(../img/background\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -44,7 +44,7 @@
     padding: 10px;
 }
 .container_small {
-    padding: 58px 0 24px;
+    padding: 58px 0 38px;
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
@@ -53,12 +53,14 @@
     position: relative;
 }
 .axure::after {
-    content: url(/img/mask.png);
-    display: block;
+    content: '';
+    background-image: url(../img/mask.png);
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     overflow: hidden;
+    filter: alpha(Opacity=55);
+    opacity: 0.70;
 }
