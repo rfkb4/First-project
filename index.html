@@ -94,9 +94,7 @@
                             </div>
                         </div>
                         <div class="form__button">
-                            <button type="submit" class="form_btn">
-                                Get started
-                            </button>
+                            <input type="submit" value="Get started" class="form_btn" >
                         </form>
                     </div>
             </div>
@@ -395,43 +393,40 @@
             <div class="title-desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
-            <div class="row">
+            <form class="row" method="POST">
                 <div class="row__content">
                     <div class="row_left">
-                    <form action="#" class="row__form">
                         <div class="row__item">
                             <label for="row__username">
                                 Name
                             </label>
-                            <input type="text" id="row__username" placeholder="" value="">
+                            <input type="text" id="row__username" name="user_name" placeholder="" value="">
                         </div>
                         <div class="row__item">
                             <label for="row__email">
                                 Email
                             </label>
-                            <input type="email" id="row__email" placeholder="" value="">
+                            <input type="email" id="row__email" name="user_email" placeholder="" value="">
                         </div>
                         <div class="row__item">
                             <label for="row__pass">
                                 Password
                             </label>
-                            <input type="password" id="row__pass" placeholder="" value="">
+                            <input type="password" id="row__pass" name="user_password" placeholder="" value="">
                         </div>
-                    </form>
                     </div>
                     <div class="row_right">
                     <label for="row__text">
                         Message
                     </label>
                     <textarea name="" id="row__text" cols="30" rows="8">
-
                     </textarea>
                     </div>
                 </div>
                 <button type="submit" class="row__button">
                     Send message
                 </button>
-            </div>
+            </form>
         </div>
     </section>
     <section class="footer">
