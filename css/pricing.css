@@ -3,16 +3,23 @@
     padding: 100px 0;
 }
 .pricing-card { 
-    padding: 0 -15px;
+    padding: 0 ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .pricing-card__item {
-    padding: 0px -15px;
     text-align: center;
-    padding: 10px 15px;
+    padding: 10px 0;
+    padding-right: 15px;
     width: 350px;
+}
+.pricing-card__item:last-child {
+    padding-right: 0;
+}
+.pricing-card__item:hover {
+    transform: translateY(-20px);
+    transition: 0.4s;
 }
 .pricing-card__name {
     font-weight: 700;

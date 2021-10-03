@@ -4,13 +4,17 @@
 .reviews-card{
     padding: 0 -15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .reviews-card__item {
     text-align: center;
-    padding: 10px 15px;
+    padding: 10px 0;
+    padding-right: 15px;
     width: 300px;
+}
+.reviews-card__item:last-child {
+    padding-right: 0;
 }
 .reviews-card__text {
     font-weight: 400;
