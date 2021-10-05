@@ -1,0 +1,41 @@
+.features {
+}
+
+.tabs_name {
+}
+.tabs__body {
+}
+.tabs {
+}
+.container_features {
+  max-width: 1170px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+.tabs__items {
+  display: flex;
+}
+.tabs__item {
+  flex: 0 1 33.333%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+.tabs__block {
+  font-size: 18px;
+  padding: 20px;
+  display: none;
+}
+.tabs__block:nth-child(1) {
+  background-color: blueviolet;
+}
+.tabs__block:target {
+  display: block;
+}

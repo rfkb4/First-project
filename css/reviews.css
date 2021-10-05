@@ -1,76 +1,71 @@
 .customers {
-    padding: 100px 0px;
+  padding: 100px 0px;
 }
-.reviews-card{
-    padding: 0 -15px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.reviews-card {
+  margin: 0 -15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .reviews-card__item {
-    text-align: center;
-    padding: 10px 0;
-    padding-right: 15px;
-    width: 300px;
-}
-.reviews-card__item:last-child {
-    padding-right: 0;
+  text-align: center;
+  margin: 0 15px;
+  width: 300px;
 }
 .reviews-card__text {
-    font-weight: 400;
-    font-size: 14px;
-    color: #86878B;
-    background: #dfdfdf;
-    border-radius: 7px;
-    margin-bottom: 20px;
-    position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878b;
+  background: #dfdfdf;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  position: relative;
 }
 .reviews-card__text::after {
-    content: '';
-    
-    border-left: 10px solid transparent; 
-    border-right: 10px solid transparent; 
-    border-top: 10px solid #dfdfdf;
-    position: absolute;
-    top: 100%;
-    left: 10%;
+  content: '';
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #dfdfdf;
+  position: absolute;
+  top: 100%;
+  left: 10%;
 }
 .text {
-    padding: 15px 15px;
+  padding: 15px 15px;
 }
 .reviews-card__customer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .reviews-card__avatar {
-    display: flex;
-    align-content: center;
-    align-items: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
 }
 .avatar {
-    display: block;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    object-fit: cover;
+  display: block;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
 }
 .reviews-card__name {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items:flex-end
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 .name {
-    display: block;
-    padding: 6px;
-    font-weight: 700;
-    font-size: 20px;
+  display: block;
+  padding: 6px;
+  font-weight: 700;
+  font-size: 20px;
 }
 .profession {
-    display: block;
-    padding: 6px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #86878B;
+  display: block;
+  padding: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
 }
