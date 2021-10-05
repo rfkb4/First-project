@@ -21,7 +21,7 @@
                 <nav class="header__nav">
                     <ul class="header__links">
                         <li class="header__item">
-                            <a class=" header__link" href="#">Feautures</a>
+                            <a class=" header__link" href="#main">Feautures</a>
                         </li>
                         <li class="header__item">
                             <a class=" header__link" href="#awesome">About</a>
@@ -33,13 +33,14 @@
                             <a class=" header__link" href="#customers">Reviews</a>
                         </li>
                         <li class="header__item">
-                            <a class=" header__link" href="#">Contact</a>
+                            <a class=" header__link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
     </section>
+    <a href="" name="main"></a>
     <section class="main">
         <div class="container_main">
             <div class="greetings">
@@ -75,27 +76,25 @@
                                     Name
                                 </label>
                                 <br>
-                                <input type="text" id="userName" value="" class="form__item_imput">
+                                <input type="text" id="userName" value="" class="form__item_input">
                             </div>
                             <div class="form__item">
                                 <label for="email" class="form__item_label">
                                     Email
                                 </label>
                                 <br>
-                                <input type="email" id="email" value="" class="form__item_imput">
+                                <input type="email" id="email" value="" class="form__item_input">
                             </div>
                             <div class="form__item">
                                 <label for="" class="form__item_label">
                                     Password
                                 </label>
                                 <br>
-                                <input type="password" id="userpass" value class="form__item_imput">
+                                <input type="password" id="userpass" value class="form__item_input">
                             </div>
                         </div>
                         <div class="form__button">
-                            <button class="form_btn">
-                                Get started
-                            </button>
+                            <input type="submit" value="Get started" class="form_btn" >
                         </form>
                     </div>
             </div>
@@ -139,8 +138,8 @@
             </div>
         </div>
     </section>
+    <a name="awesome"></a>
     <section class="awesome">
-        <a name="awesome"></a>
         <div class="container">
                 <h2 class="title">
                     Why this is awesome
@@ -185,8 +184,8 @@
             </div>
         </div>
     </section>
+    <a name="pricing"></a>
     <section class="pricing">
-        <a name="pricing"></a>
         <div class="container">
                 <h2 class="title">
                     Pricing options
@@ -285,8 +284,8 @@
             </div>
         </div> 
     </section>
+    <a name="customers"></a>
     <section class="customers">
-        <a name="customers"></a>
         <div class="container">
                 <h2 class="title">
                     What our customers are saying
@@ -384,6 +383,51 @@
             <div class="form">
 
             </div>
+    </section>
+    <a href="#" name="contact"></a>
+    <section class="contact">
+        <div class="container">
+            <h2 class="title">
+                Contact us
+            </h2> 
+            <div class="title-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <form class="row" method="POST">
+                <div class="row__content">
+                    <div class="row_left">
+                        <div class="row__item">
+                            <label for="row__username">
+                                Name
+                            </label>
+                            <input type="text" id="row__username" name="user_name" placeholder="" value="">
+                        </div>
+                        <div class="row__item">
+                            <label for="row__email">
+                                Email
+                            </label>
+                            <input type="email" id="row__email" name="user_email" placeholder="" value="">
+                        </div>
+                        <div class="row__item">
+                            <label for="row__pass">
+                                Password
+                            </label>
+                            <input type="password" id="row__pass" name="user_password" placeholder="" value="">
+                        </div>
+                    </div>
+                    <div class="row_right">
+                    <label for="row__text">
+                        Message
+                    </label>
+                    <textarea name="" id="row__text" cols="30" rows="8">
+                    </textarea>
+                    </div>
+                </div>
+                <button type="submit" class="row__button">
+                    Send message
+                </button>
+            </form>
+        </div>
     </section>
     <section class="footer">
         <div class="container">

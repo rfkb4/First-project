@@ -12,9 +12,14 @@
     justify-content: center;
     font-size: 23px;
 }
+.footer__item {
+    margin-right: 30px;
+}
+.footer__item:last-child {
+    margin-right: 0px;
+}
 .footer__link {
     color: #86878B;
-    margin: 0 15px 0 15px;
 }
 .copy {
     display: block;
